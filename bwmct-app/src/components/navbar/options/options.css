@@ -1,0 +1,25 @@
+.nav-right {
+    flex-basis: 50%;
+}
+
+.nav-three-dash {
+    padding: 2vh;
+    height: 3vh;
+    float: right;
+}
+
+.nav-list {
+    list-style: none;
+    float: right;
+    margin-right: 1rem;
+}
+
+.nav-list > li {
+    font-size: 2vh;
+    margin-top: 2.5vh;
+    margin-left: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    font-family: AquireBold;
+    color: aliceblue;
+}

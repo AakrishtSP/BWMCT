@@ -1,0 +1,13 @@
+.nav-logo-text {
+    font-family: AquireBold;
+    font-weight: bolder;
+    font-size: 2.75vh;
+    color: #fff;
+    padding-left: 1rem;
+    padding-top: 2.125vh;
+    flex-basis: 50%;
+}
+
+.nav-logo-text-fl {
+    color: red;
+}
