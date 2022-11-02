@@ -1,5 +1,5 @@
 .nav-right {
-    flex-basis: 50%;
+    margin-left: auto;
 }
 
 .nav-three-dash {
@@ -22,4 +22,5 @@
     text-decoration: none;
     font-family: AquireBold;
     color: aliceblue;
+    cursor: pointer;
 }

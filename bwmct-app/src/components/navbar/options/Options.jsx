@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import ThreeDash from "./threeDash.png";
 import "./options.css";
 
@@ -14,8 +16,12 @@ const Options = () => {
         return (
             <div className="nav-right">
                 <ul className="nav-list">
-                    <li>HOME</li>
-                    <li>GAMES</li>
+                    <li>
+                        <Link to="/">HOME</Link>
+                    </li>
+                    <li>
+                        <Link to="/games">GAMES</Link>
+                    </li>
                     <li>PROFILE</li>
                 </ul>
             </div>
