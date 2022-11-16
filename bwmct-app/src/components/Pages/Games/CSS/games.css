@@ -1,0 +1,18 @@
+.gamelist-nav-bar-list {
+    margin: 1vh 0 1vh 0;
+    height: 4vh;
+    list-style: none;
+    display: flex;
+}
+.gamelist-nav-bar-list > li {
+    padding-top: 1vh;
+    flex-basis: 50%;
+    display: inline-block;
+    text-decoration: none;
+    font-family: AquireBold;
+    font-size: 2vh;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid black;
+}

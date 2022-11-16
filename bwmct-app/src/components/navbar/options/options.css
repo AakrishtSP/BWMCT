@@ -15,12 +15,17 @@
 }
 
 .nav-list > li {
-    font-size: 2vh;
-    margin-top: 2.5vh;
-    margin-left: 1rem;
+    margin: 2.5vh 1rem 2.5vh 0;
     display: inline-block;
     text-decoration: none;
     font-family: AquireBold;
+    font-size: 2vh;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.nav-list > li > a {
+    text-decoration: none;
     color: aliceblue;
     cursor: pointer;
 }

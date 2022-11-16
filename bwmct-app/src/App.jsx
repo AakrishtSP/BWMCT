@@ -11,8 +11,11 @@ function App() {
         <div>
             <Navbar />
             <Routes>
-                <Route path="/" exact element={<Home />} />
-                <Route path="/games" element={<Games />} />
+                <Route path="" element={<Home />} />
+                <Route path="games" element={<Games />}>
+                    <Route path="scoreboard" element={<div>HEllo</div>} />
+                    <Route path="" element={<div>Hi</div>} />
+                </Route>
             </Routes>
         </div>
     );

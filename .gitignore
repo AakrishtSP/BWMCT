@@ -1,3 +1,4 @@
-bwmct-api/venv
-bwmct-app/node_modules
+bwmct-api/venv/
+bwmct-app/node_modules/
+bwmct-app/build/
 .vscode
