@@ -16,3 +16,9 @@
     text-align: center;
     border: 1px solid black;
 }
+
+.gamelist-nav-bar-list > li > a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

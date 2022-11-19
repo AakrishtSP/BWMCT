@@ -34,6 +34,12 @@ PLAYER_ROLE = (
 
 class Team(models.Model):
     name = models.CharField(max_length=5, choices=TEAMS, unique=True)
+    pool = models.IntegerField(default=1, choices=((1, 1), (2, 2)))
+    gamesPlayed = models.IntegerField(default=0)
+    win = models.IntegerField(default=0)
+    loss = models.IntegerField(default=0)
+    draw = models.IntegerField(default=0)
+    netRun = models.IntegerField(default=0)
 
     def __str__(self):
         return self.name

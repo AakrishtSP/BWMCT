@@ -1,0 +1,17 @@
+.game-list-item {
+    height: 10vh;
+}
+
+.first-team {
+    float: left;
+    margin-left: 5vw;
+    margin-right: auto;
+}
+
+.versus {
+}
+
+.second-team {
+    float: right;
+    margin-right: 5vw;
+}
