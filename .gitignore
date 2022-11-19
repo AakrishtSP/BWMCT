@@ -1,6 +1,7 @@
 bwmct-api/venv/
 bwmct-api/api/migrations
 bwmct-api/api/__pycache__/
+bwmct-api/bwmct/__pycache__/
 
 bwmct-app/node_modules/
 bwmct-app/build/
