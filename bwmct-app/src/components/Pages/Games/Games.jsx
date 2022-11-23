@@ -8,10 +8,10 @@ const Games = () => {
         <>
             <ul className="gamelist-nav-bar-list">
                 <li>
-                    <Link to="/games">Matches</Link>
+                    <Link to="/games"><div>Matches</div></Link>
                 </li>
                 <li>
-                    <Link to="pointsTable">Points Table</Link>
+                    <Link to="pointsTable"><div>Points Table</div></Link>
                 </li>
             </ul>
             <Outlet />

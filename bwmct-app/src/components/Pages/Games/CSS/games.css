@@ -1,24 +1,24 @@
 .gamelist-nav-bar-list {
-    margin: 1vh 0 1vh 0;
-    height: 4vh;
-    list-style: none;
-    display: flex;
+  margin: 1vh 0 1vh 0;
+  height: 4vh;
+  list-style: none;
+  display: flex;
 }
 .gamelist-nav-bar-list > li {
-    padding-top: 1vh;
-    flex-basis: 50%;
-    display: inline-block;
-    text-decoration: none;
-    font-family: AquireBold;
-    font-size: 2vh;
-    color: black;
-    cursor: pointer;
-    text-align: center;
-    border: 1px solid black;
+  padding: auto auto auto auto;
+  flex-basis: 50%;
+  display: inline-block;
+  text-decoration: none;
+  font-family: AquireBold;
+  font-size: 3vh;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid black;
 }
 
 .gamelist-nav-bar-list > li > a {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }

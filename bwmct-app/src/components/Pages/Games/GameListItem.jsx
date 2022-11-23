@@ -3,29 +3,43 @@ import Card from "../../UI/Card";
 import "./CSS/gameListItem.css";
 
 const GameListItem = (props) => {
-    const firstTeam = useRef("First Team");
-    const secondTeam = useRef("Second Team");
-    useEffect(() => {
-        props.team.map((team) => {
-            if (team.id === props.match.firstTeam) {
-                firstTeam.current = team.name;
-            }
-            if (team.id === props.match.secondTeam) {
-                secondTeam.current = team.name;
-            }
-            return 0;
-        });
-    });
+  const firstTeam = useRef("First Team");
+  const secondTeam = useRef("Second Team");
 
-    return (
-        <Card>
-            <div className="game-list-item">
-                <span className="first-team">Team: {firstTeam.current}</span>
-                <span className="versus">V/S</span>
-                <span className="second-team">Team: {secondTeam.current}</span>
-            </div>
-        </Card>
-    );
+  let matchState = "";
+  let matchDate = <div>{props.match.matchDate}</div>;
+
+  useEffect(() => {
+    props.team.map((team) => {
+      if (team.id === props.match.firstTeam) {
+        firstTeam.current = team.name;
+      }
+      if (team.id === props.match.secondTeam) {
+        secondTeam.current = team.name;
+      }
+      return 0;
+    });
+  });
+
+  if (props.match.matchState === "0") {
+    matchState = "Score Here";
+  } else if (props.match.matchState === "1") {
+    matchState = props.match.description;
+  }
+
+  return (
+    <Card>
+      <div className="gamelist-card">
+        <div className="match-date"> {matchDate} </div>
+        <div className="game-list-item">
+          <div className="first-team">Team {firstTeam.current}</div>
+          <div className="versus">V/S</div>
+          <div className="second-team">Team {secondTeam.current}</div>
+        </div>
+        <div className="match-state">{matchState}</div>
+      </div>
+    </Card>
+  );
 };
 
 export default GameListItem;

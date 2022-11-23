@@ -1,31 +1,32 @@
 .nav-right {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .nav-three-dash {
-    padding: 2vh;
-    height: 3vh;
-    float: right;
+  padding: 2vh;
+  height: 3vh;
+  float: right;
 }
 
 .nav-list {
-    list-style: none;
-    float: right;
-    margin-right: 1rem;
+  list-style: none;
+  float: right;
+  margin-right: 1rem;
+  background-color: transparent;
 }
 
 .nav-list > li {
-    margin: 2.5vh 1rem 2.5vh 0;
-    display: inline-block;
-    text-decoration: none;
-    font-family: AquireBold;
-    font-size: 2vh;
-    color: aliceblue;
-    cursor: pointer;
+  margin: 2.5vh 1rem 2.5vh 0;
+  display: inline-block;
+  text-decoration: none;
+  font-family: AquireBold;
+  font-size: 2vh;
+  color: aliceblue;
+  cursor: pointer;
 }
 
 .nav-list > li > a {
-    text-decoration: none;
-    color: aliceblue;
-    cursor: pointer;
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
 }

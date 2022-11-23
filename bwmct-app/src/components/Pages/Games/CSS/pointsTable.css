@@ -1,0 +1,17 @@
+.points-table-pool {
+  font-family: AquireBold;
+  text-align: center;
+  font-size: larger;
+  margin: 2vh 0 0 0;
+}
+@media (min-width: 600px) {
+  .points-table-pool {
+    font-size: 2.5vh;
+  }
+}
+
+@media (min-width: 1500px) {
+  .points-table-pool {
+    font-size: 3.5vh;
+  }
+}

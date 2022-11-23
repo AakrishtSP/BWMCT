@@ -1,0 +1,25 @@
+.loading {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding-top: 40vh;
+}
+
+.spinner {
+  margin: auto auto auto auto;
+  width: 10vh;
+  height: 10vh;
+  border: 8px solid;
+  border-color: #3d5af1 transparent #3d5af1 transparent;
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

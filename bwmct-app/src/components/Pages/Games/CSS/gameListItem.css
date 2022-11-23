@@ -1,17 +1,46 @@
+.gamelist-card {
+}
+
 .game-list-item {
-    height: 10vh;
+  width: 100%;
+  font-weight: bold;
+  font-size: 3vh;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.game-list-item > div {
+  margin: 1vh 2vh 1vh 2vh;
+  padding: 0;
+  height: max-content;
+}
+
+.match-date {
+  margin: 2px 0 1px 1vw;
+  padding: 0 1vh 0 1vh;
+  width: max-content;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: gray;
+}
+
+.match-state {
+  height: 21px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .first-team {
-    float: left;
-    margin-left: 5vw;
-    margin-right: auto;
+  float: left;
 }
 
 .versus {
+  text-align: center;
+  font-size: 4vh;
 }
 
 .second-team {
-    float: right;
-    margin-right: 5vw;
+  float: right;
 }

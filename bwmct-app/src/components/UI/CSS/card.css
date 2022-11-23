@@ -1,4 +1,7 @@
 .card {
-    border-radius: 5px;
-    border-style: groove;
+  border-radius: 10px;
+  border-style: groove;
+  box-shadow: inset;
+  margin: 2vh 2vw 2vh 2vw;
+  padding: 0;
 }
