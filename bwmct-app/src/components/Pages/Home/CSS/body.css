@@ -1,7 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  background: white;
+.homepage {
+  background-color: black;
+  height: 92vh;
+  margin-top: 0;
 }
 
 .homelogo {
@@ -23,25 +23,144 @@
 }
 
 .red {
-  color: rgb(255, 159, 159);
+  color: rgb(255, 158, 158);
 }
 
 .button {
-  color: blakc;
-  background-color: rgb(221, 221, 221);
-  border-radius: 10px;
-  font-size: 2rem;
-  margin-left: 34%;
-  margin-top: 5vh;
-  padding-right: 1%;
-  padding-left: 1%;
+  background-color: rgb(219, 219, 219);
+  border-radius: 7px;
+  font-size: 3rem;
+  text-align: center;
+  margin: 5vh auto 0 auto;
+  width: max-content;
+  height: fit-content;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
 
 .button:hover {
-  transform: scale(1.15);
-  transition: 1s;
-  background-color: rgb(255, 166, 166);
+  transform: scale(1.1);
+  transition: 1.5s;
+  background-color: rgb(216, 74, 74);
   color: rgb(255, 255, 255);
+}
+
+.buttonhref {
+  text-decoration: none;
+  color: black;
+}
+
+.page1 {
+  background-color: rgb(231, 231, 231);
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  display: flex;
+}
+
+.intro {
+  color: rgb(61, 61, 61);
+  font-size: 8vh;
+  margin-left: 10%;
+  margin-top: 15vh;
+}
+
+.intropara {
+  color: rgb(133, 133, 133);
+  margin-left: 10%;
+  margin-top: 8vh;
+  font-weight: bolder;
+  font-size: 2.8vh;
+}
+
+.pageleft {
+  flex-basis: 70%;
+}
+.pageright {
+  flex-basis: 30%;
+}
+
+.socials {
+  height: auto;
+  width: 100%;
+  position: absolute;
+}
+
+.ball {
+  margin-top: 20vh;
+  margin-left: 5%;
+}
+
+.end {
+  height: 140vh;
+  width: 100%;
+  background-image: url(../image/wallpaper.jpg);
+  background-size: cover;
+}
+
+@media (max-width: 1200px) {
+  .homelogo {
+    font-size: 6rem;
+  }
+  .hometext {
+    font-size: 3rem;
+  }
+  .button {
+    font-size: 3rem;
+    border-radius: 5px;
+  }
+  .intro {
+    font-size: 4rem;
+  }
+  .intropara {
+    font-size: 2.5rem;
+  }
+  .pageleft {
+    flex-basis: 100%;
+    margin-right: 10%;
+  }
+  .pageright {
+    display: none;
+  }
+  .end {
+    position: absolute;
+    top: 190%;
+
+    height: 30vh;
+    background-size: 25vh cover;
+  }
+}
+@media (max-width: 600px) {
+  .homelogo {
+    font-size: 4rem;
+  }
+  .hometext {
+    font-size: 1.1rem;
+  }
+  .button {
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
+  .intro {
+    font-size: 2rem;
+  }
+  .intropara {
+    font-size: 1rem;
+  }
+  .pageleft {
+    flex-basis: 100%;
+    margin-right: 10%;
+  }
+  .pageright {
+    display: none;
+  }
+  .end {
+    position: absolute;
+    top: 190%;
+
+    height: 30vh;
+    background-size: 25vh cover;
+  }
 }

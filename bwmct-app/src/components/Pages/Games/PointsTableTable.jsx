@@ -14,8 +14,8 @@ const PointsTableTable = (props) => {
             <th>Win</th>
             <th>Loss</th>
             <th>Draw</th>
-            <th>Net Run Rate</th>
             <th>Total Point</th>
+            <th>Net Run Rate</th>
           </tr>
         </thead>
         {props.teams.map((item) => {

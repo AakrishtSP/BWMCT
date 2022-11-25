@@ -1,11 +1,12 @@
 @font-face {
-    font-family: AquireBold;
-    src: url("./aquireBold.otf") format("opentype");
+  font-family: AquireBold;
+  src: url("./aquireBold.otf") format("opentype");
 }
 
 .navbar {
-    height: 7vh;
-    background-color: rgb(32, 32, 32);
-    display: flex;
-    z-index: 1000;
+  height: 7vh;
+  background-color: rgb(221, 221, 221);
+  display: flex;
+  z-index: 1000;
+  box-shadow: 3px 2px 4px 2px rgb(199, 199, 199);
 }

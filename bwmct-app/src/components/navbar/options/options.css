@@ -20,12 +20,12 @@
   text-decoration: none;
   font-family: AquireBold;
   font-size: 2vh;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
 .nav-list > li > a {
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }

@@ -41,6 +41,7 @@ class Team(models.Model):
     draw = models.IntegerField(default=0)
     netRun = models.IntegerField(default=0)
 
+
     def __str__(self):
         return self.name
 
@@ -67,6 +68,8 @@ class Match(models.Model):
     result = models.CharField(
         max_length=5, choices=RESULT_CHOICES, default=0, blank=True)
     description = models.TextField(blank=True)
+    liveScore= models.CharField(max_length=50, blank=True)
+    target = models.CharField(max_length=50, blank=True)
 
     def __str__(self):
         return f'{self.firstTeam} V/S {self.secondTeam}'

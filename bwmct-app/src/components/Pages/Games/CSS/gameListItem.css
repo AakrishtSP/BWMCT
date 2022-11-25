@@ -23,7 +23,7 @@
   text-align: center;
   font-weight: bold;
   border-radius: 5px;
-  background-color: gray;
+  background-color: rgba(134, 134, 134, 0.445);
 }
 
 .match-state {
@@ -43,4 +43,16 @@
 
 .second-team {
   float: right;
+}
+
+.ongoing {
+  display: inline-flex;
+  width: 90%;
+}
+.target {
+  width: 100%;
+}
+
+.score {
+  width: 100%;
 }

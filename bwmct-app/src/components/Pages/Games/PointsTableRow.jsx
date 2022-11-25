@@ -9,8 +9,8 @@ const PointsTableRow = (props) => {
         <td>{props.match.win}</td>
         <td>{props.match.loss}</td>
         <td>{props.match.draw}</td>
+        <td>{props.match.win * 2 + props.match.draw * 1}</td>
         <td>{props.match.netRun}</td>
-        <td>Total</td>
       </tr>
     </tbody>
   );

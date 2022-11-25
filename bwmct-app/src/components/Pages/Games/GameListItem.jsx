@@ -22,7 +22,12 @@ const GameListItem = (props) => {
   });
 
   if (props.match.matchState === "0") {
-    matchState = "Score Here";
+    matchState = (
+      <div className="ongoing">
+        <div className="target">{props.match.target}</div>
+        <div className="score">{props.match.liveScore}</div>
+      </div>
+    );
   } else if (props.match.matchState === "1") {
     matchState = props.match.description;
   }
