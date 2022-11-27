@@ -11,7 +11,7 @@ const GameList = () => {
 
   //Fetching API data for match list
   useEffect(() => {
-    fetch("http://localhost:8000/api/match/")
+    fetch("http://127.0.0.1:8000/api/match/")
       .then((response) => response.json())
       .then(
         (result) => {
@@ -27,7 +27,7 @@ const GameList = () => {
 
   //Fetches API data for Team
   useEffect(() => {
-    fetch("http://localhost:8000/api/team/")
+    fetch("http://127.0.0.1:8000/api/team/")
       .then((response) => response.json())
       .then(
         (result) => {
@@ -43,7 +43,7 @@ const GameList = () => {
 
   //Fetch API data for player
   useEffect(() => {
-    fetch("http://localhost:8000/api/player/")
+    fetch("http://127.0.0.1:8000/api/player/")
       .then((response) => response.json())
       .then(
         (result) => {

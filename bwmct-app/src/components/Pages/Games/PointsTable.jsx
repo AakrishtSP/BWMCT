@@ -15,7 +15,7 @@ const PointsTable = () => {
   let poolB = [];
 
   useEffect(() => {
-    fetch("http://localhost:8000/api/team/")
+    fetch("http://127.0.0.1:8000/api/team/")
       .then((response) => response.json())
       .then(
         (result) => {
